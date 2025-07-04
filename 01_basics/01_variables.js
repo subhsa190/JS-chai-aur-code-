@@ -1,6 +1,6 @@
 const accountId = 1435672
 let accountEmail = "suhbham@cse.com"
-var accountPassword = " 12345"
+var accountPassword = " 736207"
 
 accountCity = " Siliguri"
 
