@@ -47,3 +47,24 @@ console.log(typeof anotherId);
 // typeof(Arrays)    =  "object"
 // typeof(Function)  =  "funciton"
 // typeof(Object)    =  "object"
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive) , Heap(Non-Primitive)
+// In Stack memomry we pass copy of variable
+// In Heap memomry we pass reference of variable
+
+let myYoutubename = "Subhamcodes"
+let anothername = myYoutubename
+   anothername = "Code-World"
+// console.log(myYoutubename);
+// console.log(anothername);
+
+let userOne ={
+    email:"subham42cse@gmail.com",
+     upi:"subham@ybl" ,   
+}
+let userTwo = userOne
+userTwo.emai = "subhamsaha@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
