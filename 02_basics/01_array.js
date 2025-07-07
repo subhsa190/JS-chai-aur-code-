@@ -14,6 +14,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 // myArr.unshift(9)
 // myArr.shift()
+// console.log(myArr);
 
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(3));
@@ -35,5 +36,5 @@ console.log("B ", myArr);
 
 
 const myn2 = myArr.splice(1, 3)
-console.log("C ", myArr);
+console.log("C ", myArr); // splice manipulate original array
 console.log(myn2);
