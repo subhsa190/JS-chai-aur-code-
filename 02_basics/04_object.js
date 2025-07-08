@@ -2,7 +2,7 @@
 const tinderUser = {}      // This is not singleton object
 
 tinderUser.id = "123abc"
-tinderUser.name = "Sammy"
+tinderUser.name = "Guddu"
 tinderUser.isLoggedIn = false
 
 // console.log(tinderUser);
@@ -11,8 +11,8 @@ const regularUser = {
     email: "some@gmail.com",
     fullname: {
         userfullname: {
-            firstname: "hitesh",
-            lastname: "choudhary"
+            firstname: "subham",
+            lastname: "saha"
         }
     }
 }
@@ -26,11 +26,11 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = { obj1, obj2 }
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 
-const obj3 = {...obj1, ...obj2}
+const obj3 = {...obj1, ...obj2}  // This is spread operator like ,, glass ko chor diya spreade ho gaya
 // console.log(obj3);
 
 
-const users = [
+const users = [  // This array of object is used when values coming from databases
     {
         id: 1,
         email: "h@gmail.com"
