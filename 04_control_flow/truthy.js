@@ -53,4 +53,3 @@ console.log(val1);
 const icecream = 100 
 
 icecream <=50 ? console.log("less than 50") : console.log("more than 50");
-
