@@ -25,4 +25,4 @@ for (const key in programming) {
 //     console.log(key);
 // } 
 
-// map ke upar for in apply nahi hota
+// map ke upar for in apply nahi hotaa
